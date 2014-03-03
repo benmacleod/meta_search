@@ -1,6 +1,6 @@
 module MetaSearch
   NUMBERS = [:integer, :float, :decimal]
-  STRINGS = [:string, :text, :binary]
+  STRINGS = [:string, :text, :binary, :citext]
   DATES = [:date]
   TIMES = [:datetime, :timestamp, :time]
   BOOLEANS = [:boolean]
